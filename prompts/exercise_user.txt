@@ -1,0 +1,4 @@
+Generate {count} English vocabulary exercises targeting: {target_words}.
+Target CEFR level: {cefr_level}.
+Learner profile (teaching assistance only): {learner_profile}.
+Produce JSON with exactly one field "exercises" containing a list of objects with the keys "question", "options", "answer", "hint". "options" is an object with keys A, B, C and D. "answer" is one of A/B/C/D. Do not include additional keys. Do not assert that CEFR validity is independently certified.

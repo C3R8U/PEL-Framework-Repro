@@ -1,0 +1,6 @@
+{
+  "efcamdat_v2": {"site": "https://corpus.mml.cam.ac.uk/efcamdat/", "license": "Obtain source and confirm access conditions directly", "source_version": "2.0", "split_by": "learner_id", "target": "proficiency_level", "note": "Original 16 course proficiency levels; do not invent 6 CEFR gold labels."},
+  "toefl_tasks": {"site": "https://www.ets.org/toefl/test-takers/ibt/prepare/practice-tests.html", "license": "ETS rights and item reuse terms apply", "split_by": "learner_id", "target": "correct", "note": "Public questions alone do NOT constitute 15,000 candidate-level response records."},
+  "mooc_behavior": {"site": "https://github.com/THU-KEG/MOOCCube", "license": "Review dataset source terms", "split_by": "learner_id", "target": null, "note": "Behavior clusters are pseudo-labels, not externally validated learning styles."},
+  "affect_classroom": {"site": "restricted classroom data; not distributed", "license": "Consent and institutional approvals required", "split_by": "learner_id", "target": "human_label", "note": "Scores must originate from documented, separately versioned emotion estimators; never infer facial labels if no video is collected."}
+}

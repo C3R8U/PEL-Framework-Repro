@@ -1,0 +1,5 @@
+[
+  {"id":"common_words","prerequisites":[],"mastery_gain":0.8,"time_cost":0.2,"satisfaction":0.8,"cognitive_load":0.2},
+  {"id":"past_tense","prerequisites":["common_words"],"mastery_gain":0.7,"time_cost":0.5,"satisfaction":0.7,"cognitive_load":0.6},
+  {"id":"dialogue","prerequisites":["common_words"],"mastery_gain":0.7,"time_cost":0.4,"satisfaction":0.8,"cognitive_load":0.5}
+]

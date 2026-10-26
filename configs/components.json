@@ -1,0 +1,73 @@
+{
+  "seed": 42,
+  "proficiency": {
+    "backbone": "google-bert/bert-base-uncased",
+    "max_length": 512,
+    "epochs": 10,
+    "learning_rate": 2e-05,
+    "batch_size": 32,
+    "weight_decay": 0.01,
+    "n_labels": 16,
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "behavior_preferences": {
+    "kmeans_clusters": 4,
+    "naive_bayes_smoothing": 1.0,
+    "features": [
+      "video_time",
+      "text_time",
+      "practice_count",
+      "mixed_resource_count"
+    ]
+  },
+  "affect": {
+    "weights": {
+      "text": 0.55,
+      "audio": 0.45
+    },
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ]
+  },
+  "path": {
+    "mastery": 0.35,
+    "time": 0.25,
+    "satisfaction": 0.2,
+    "cognitive_load": 0.2
+  },
+  "classroom": {
+    "planned_classes": 8,
+    "teachers": 4,
+    "cluster_randomized": true,
+    "intervention_weeks": 16,
+    "mi_draws": 20
+  },
+  "ablation": {
+    "conditions": [
+      "full",
+      "no_profile",
+      "no_generation",
+      "no_path",
+      "generic_ai",
+      "equal_practice_digital"
+    ],
+    "n_participants": 118
+  },
+  "content_quality": {
+    "teachers": 5,
+    "tasks": 200,
+    "strategies": [
+      "profile_guided",
+      "generic_ai",
+      "human"
+    ],
+    "dimensions": [
+      "grammatical_correctness",
+      "pedagogical_relevance",
+      "cefr_alignment",
+      "answer_validity"
+    ]
+  }
+}

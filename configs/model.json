@@ -1,0 +1,17 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "4709f6c0771f0185a675b046268cdc1d1f2c74ce",
+  "architecture_expected": {
+    "model_type": "qwen2", "num_hidden_layers": 28,
+    "hidden_size": 3584, "intermediate_size": 18944,
+    "num_attention_heads": 28, "num_key_value_heads": 4,
+    "vocab_size": 152064, "max_position_embeddings": 32768,
+    "rope_theta": 1000000.0, "rms_norm_eps": 1e-6,
+    "tie_word_embeddings": false
+  },
+  "generation": {
+    "temperature": 0.7, "top_p": 0.9,
+    "max_new_tokens": 512, "repetition_penalty": 1.1,
+    "seed": 42, "torch_dtype": "bfloat16"
+  }
+}
